@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 1024px){
+    .wp_inner { width: 100%;}
+    .pd_mobile { padding-left: 10px!important; padding-right: 10px!important;}
+}
+@media screen and (max-width: 768px){
+    #main_menu li{ width: 20%;}
+    #main_menu li a{ border-bottom: 1px solid #ddd;}
+    #content , #sidebar { width: 100%; padding: 0;}
+    .hide_mobile  { display: none;}
+}
+@media screen and (max-width: 680px){
+    #list_more li:nth-child(n) { width: 49%; margin-right: 2%;}
+    #list_more li:nth-child(2n) {margin-right: 0;}
+}
+@media screen and (max-width: 480px){
+    #main_menu li{ width: 25%;}
+    #list_more li:nth-child(n) { width: 100%; margin-right: 0;}
+}
+@media screen and (max-width: 320px){
+
+}
+
+
+
+
+

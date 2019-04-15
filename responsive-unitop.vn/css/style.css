@@ -1,0 +1,57 @@
+
+body {
+    color: #000;
+    font-family: arial;
+    font-size: 13.5px;
+    background: #fff;
+    line-height: 21px;
+}
+
+h1{ font-size: 1.8em; }
+h2{ font-size: 1.5em; }
+h3{ font-size: 1.2em; }
+
+.wp_inner { width: 1024px; margin: 0px auto;}
+.thumb { overflow: hidden; display: block;}
+.thumb img { width: 100%; display: block;}
+
+/*Style header*/
+#header  { background: #e6e5e6;     padding: 30px 0px;}
+#main_nav { background: #d0cfd0;}
+
+
+/*style main_menu*/ 
+#main_menu li{ float: left; width: 10%;}
+#main_menu li a{ color: #000; display: block; padding: 5px 0px;  text-align: center;  border-right: 1px solid #c5c3c5;}
+#main_menu li:first-child{ padding-left:0;}
+#main_menu li:last-child a{ border-right: 0;}
+
+/*Style content*/
+#wp_main_content { padding: 30px 0px;}
+#content { width: 70%; float: left; padding-right: 15px;}
+#sidebar { width: 30%; float: right; padding-left: 15px;}
+
+.title_page { padding-bottom: 10px;}
+.title_widget { padding-bottom: 8px; color: #404040;}
+.group_title  { margin-bottom: 20px;}
+
+.widget {     margin-bottom: 20px;
+              background: #eee;
+              padding: 15px;}
+.ads img { width: 100%;}
+.not_important {background-color: #E8C2B0;}
+
+.detail_page p {margin: 5px 0 10px 0px;}
+
+#wp_list_more { padding-top: 20px; margin-top: 20px; border-top: 1px solid #f5f5f5;}
+#list_more  li { float: left; width: 30%; margin-right: 5%; margin-bottom: 20px;}
+#list_more  li:nth-child(3n) { margin-right: 0px;}
+#list_more h3.title{ color: #404040;}
+
+
+
+/*style footer*/
+#footer {    border-top: 1px solid #C9C9C9;
+             padding: 10px 0px;}
+
+
